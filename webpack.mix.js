@@ -12,4 +12,6 @@ let mix = require('laravel-mix');
  */
 
 mix.react('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+   .sass('resources/assets/sass/app.scss', 'public/css')
+   .copy('node_modules/jquery/dist/jquery.min.js', 'public/js/vendor')
+   .copy('node_modules/materialize-css/dist/js/materialize.js', 'public/js/vendor')
