@@ -15,4 +15,4 @@
 //     return view('tasks');
 // });
 
-Route::view('/', 'app');
+Route::view('/', 'tasks');

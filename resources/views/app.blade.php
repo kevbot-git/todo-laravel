@@ -9,17 +9,19 @@
         <title>// todo</title>
 
         <!-- Styles -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/app.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <nav>
             <div class="nav-wrapper">
-            <a href="#" class="brand-logo">&emsp;// todo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
+                <a href="#" class="brand-logo">&emsp;// todo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                    <li><a href="sass.html"><i class="material-icons left">search</i>Link with Left Icon</a></li>
+                </ul>
             </div>
         </nav>
 
